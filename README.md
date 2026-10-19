@@ -1,45 +1,81 @@
 # less-ai-design-skill
 
-减少模板化 AI 味道的产品设计 skill。强调清晰排版、克制配色、细腻质感与自然交互，让设计更有品质、更易用。
+## Vibe code with AI. Lose the AI look.
 
-这不是固定配色或页面模板。“clean”不是删空内容；功能、信息辨识和操作反馈优先。支持不同色温、适度磨砂与可选动态光感，具体选择随产品任务调整。
+Built something useful with AI, but it still looks like every other AI-generated website? Start here.
 
-## 安装到 Codex
+**A tool-agnostic design skill for product design, web design, and UI/UX. Turn generic AI-generated interfaces into clean, polished, user-friendly experiences with clear typography, restrained color, thoughtful materials, and natural interactions.**
 
-将本仓库克隆到个人 skills 目录：
+Keep the speed of building with AI. Give the result a more considered finish: readable type, well-aligned layouts, clear actions, and details that belong to the product.
+
+## One prompt to get started
+
+Attach this repository to your AI tool, or give it `SKILL.md` and the relevant reference files, then ask:
+
+```text
+Use less-ai-design-skill to remove the generic AI look from this design.
+Keep the existing features, content, and business logic.
+Improve typography, hierarchy, alignment, controls, and interaction states.
+Choose color and materials that suit the product; do not force a preset style.
+First refine one representative page, then apply the agreed direction.
+```
+
+This is a reusable set of design instructions, not an automatic one-click filter. The tool needs access to your design or source files to make changes; review and publishing follow your usual workflow.
+
+## Use it with your preferred tool
+
+**No Codex installation required.** Everything important is written in portable Markdown; the component example is standalone HTML/CSS/JavaScript.
+
+- **Any AI assistant:** upload or paste `SKILL.md`, then include the references relevant to your task. If the assistant cannot open relative links, supply those files explicitly.
+- **AI coding tools:** keep the repository in your project and ask the agent to read `SKILL.md`. Tools with instruction or rule files can point to it; loading behavior and context limits vary by tool.
+- **Tools that support skills:** load the folder using that tool's supported skill mechanism. Automatic discovery is tool-specific.
+- **Designers and teams:** use the references as a review guide and a shared language for design decisions.
+
+Optional Codex setup:
 
 ```sh
 git clone https://github.com/hermionelai/less-ai-design-skill.git ~/.codex/skills/less-ai-design-skill
 ```
 
-如果目标文件夹已经存在，请先检查内容，避免覆盖。也可通过 GitHub 的 Code → Download ZIP 下载，解压后把文件夹命名为 `less-ai-design-skill`，放入 `~/.codex/skills/`。重新打开 Codex 会话后使用。
+Check that the destination does not already contain work. Reopen your session, then invoke `$less-ai-design-skill`. The `agents/openai.yaml` file contains optional Codex display metadata; the core guidance does not depend on it.
 
-## 使用
+## What it covers
 
-```text
-使用 $less-ai-design-skill，调整这个产品的界面。
-用户任务：……
-目标设备与信息密度：……
-需要保留的功能与内容：……
-已有品牌资产或参考：……
-```
+| Area | Focus |
+| --- | --- |
+| Product design | User tasks, information hierarchy, workflows, responsive layouts |
+| Web design | Websites, landing pages, navigation, page composition, visual finish |
+| UI and interaction design | Buttons, forms, filters, lists, tables, dialogs, feedback, keyboard behavior |
+| Visual direction | Typography, color options, subtle materials, optional ambient motion |
+| Brand expression | Professional warmth and a restrained sense of the future |
 
-先选择有代表性的真实页面验证，再展开完整界面；不要把 skill 当成要求一切产品长得一样的模板。
+It can refine an existing interface or guide a new one. It does not prescribe a technology stack, a single palette, or one layout for every product.
 
-## 内容
+## The design direction
 
-- `SKILL.md`：核心方向与按需阅读入口
-- `references/product-ui.md`：排版、按钮、图标、标签、玻璃材质与响应式
-- `references/component-patterns.md`：表单、筛选、弹窗与状态反馈
-- `references/color-and-light.md`：多种色温、外观选择与可选动态
-- `references/cross-surface.md`：跨产品、后台、对话、报告和移动端
-- `references/brand-expression.md`：人文与未来感的品牌表达
-- `references/reference-library.md`：案例观察与品牌参考索引
-- `references/external-skills.md`：外部 skill 与第一方设计系统资料
-- `assets/component-study.html`：原创、可在浏览器本地打开的组件示例；不提交或保存真实数据
+- **Clean, with substance.** Remove visual noise without stripping away useful information.
+- **Polished, without decoration for its own sake.** Work on proportion, type, spacing, alignment, and states before adding effects.
+- **User-friendly by design.** Make content readable, actions discoverable, and feedback understandable.
+- **Flexible color, consistent logic.** Offer meaningful color-temperature options; keep semantics and contrast stable.
+- **Material with a purpose.** Subtle glass and ambient light can add depth when they help the composition. They are optional.
+- **Less template, more context.** Avoid interchangeable card grids, unnecessary pills, glowing buttons, and vague AI marketing copy.
 
-公开版本不包含项目专属截图、私人附件或本地绝对路径。字号等案例数值只用于说明，需结合新项目验证。
+System fonts, useful icons, necessary cards, and gradients are not banned. The question is whether they fit the task and have been handled well.
 
-## 许可与参考
+## Inside
 
-原创文字与组件示例采用 [MIT License](LICENSE)。外部网站、品牌、设计系统和第三方 skill 仅作为参考链接，权利归各自所有者；本仓库的 MIT 许可不覆盖第三方素材。没有捆绑第三方字体、图片或上游 skill 代码。
+- [SKILL.md](SKILL.md): core instructions and reference routing
+- [Product UI](references/product-ui.md): typography, buttons, icons, labels, alignment, surfaces
+- [Component patterns](references/component-patterns.md): forms, navigation, dialogs, feedback, AI interactions
+- [Color and light](references/color-and-light.md): palette choices and optional motion
+- [Cross-surface guidance](references/cross-surface.md): adapting the direction across products and formats
+- [Brand expression](references/brand-expression.md): human warmth and future-facing visual work
+- [Reference library](references/reference-library.md): visual references and what to borrow
+- [External skills and systems](references/external-skills.md): further methods and first-party resources
+- [Component study](assets/component-study.html): an original interactive example; download and open locally
+
+The example does not submit or store real data. Project-specific screenshots, private attachments, and local absolute paths are excluded. Example measurements are starting points, not universal standards.
+
+## License
+
+Original writing and the component example are available under the [MIT License](LICENSE). Third-party brands, sites, design systems, and linked skills retain their own rights. This license does not cover their assets; no third-party images, fonts, or upstream skill code are bundled.

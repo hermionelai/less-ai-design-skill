@@ -1,43 +1,46 @@
 ---
 name: less-ai-design-skill
-description: 为产品界面、品牌官网和活动视觉减少模板化 AI 风格，强调清晰排版、克制配色、细腻质感和自然交互。用于设计或调整视觉与交互，不用于仅修改业务逻辑的任务。
+description: Refine product design, web design, and UI/UX to reduce generic AI-generated styling. Use for new or existing interfaces, websites, landing pages, and related brand visuals, with clear typography, restrained color, thoughtful materials, and natural interactions. Not for business-logic-only changes.
 ---
 
-# 减少 AI 味道的产品设计
+# Less AI Design Skill
 
-这是可随真实项目演进的品牌设计方向，不是锁死配色、字体和版式的模板。优先遵从当前任务、已有品牌资产和用户明确要求；采用本 skill 不代表获得创建、发布或修改外部系统的授权。
+Vibe code with AI. Lose the AI look.
 
-## 核心判断
+Use this guidance to make digital products clear, polished, and easy to use. It is tool-agnostic design guidance, not a fixed visual template or an automatic restyling engine. Current user instructions, established brand assets, and the actual task take precedence. Loading it does not authorize changes or publication.
 
-- 用户要的是 **clean、高级、user friendly**。clean 是层级清楚、元素有理由；高级来自比例、字体、细节、材质和完成度；user friendly 是看得清、知道能点哪里、操作后知道发生了什么。
-- 品牌可以有探索人、未来与 AI 交互的气质，但产品先服务具体任务。不要让抽象主张挤掉信息、控件或可用性。
-- 保留人文温度和适度的前沿感，降低工程后台感，也降低哲学宣言、史诗或神秘仪式感。不是“越空越高级”，也不是“加渐变就有品牌”。
-- 不把“避免 AI 感”写成空泛口号：具体减少同质化卡片、无意义胶囊、平均用力的装饰、炫彩光效和无功能内容。好用的图标、标签和必要按钮应保留。
+## Core judgment
 
-## 按场景取用
+- **Clean:** content has a clear hierarchy and each element earns its place. Do not remove necessary information to create empty space.
+- **Polished:** quality comes from proportion, type, spacing, alignment, materials, and complete states.
+- **User-friendly:** people can read the content, identify actions, and understand what happened after an action.
+- Allow warmth and a restrained sense of the future, without letting philosophical statements or decorative technology motifs displace the task.
+- Translate "less AI-looking" into specific decisions: fewer interchangeable cards, unnecessary pills, equally emphasized elements, glowing effects, and empty slogans. Keep useful icons, labels, and controls.
 
-- **产品界面和组件交互**：读取 [references/product-ui.md](references/product-ui.md)。任务、可读性和信息辨识优先。
-- **品牌官网、海报、活动视觉**：读取 [references/brand-expression.md](references/brand-expression.md)。可增加影像、材质和更有表现力的排版。
-- **选择参考、延续已有方案、处理风格冲突**：读取 [references/reference-library.md](references/reference-library.md)。其中区分已确认偏好、项目案例与待探索的方向。
+## Read what the task needs
 
-- **跨产品/报告/移动端适配与设计token组织**：读取 [references/cross-surface.md](references/cross-surface.md)。
-- **表单、筛选、弹窗、反馈与AI交互模式**：读取 [references/component-patterns.md](references/component-patterns.md)，可打开其中的原创组件观察板。
-- **需要更多方法与第一方示例**：读取 [references/external-skills.md](references/external-skills.md)，按当前缺口选择来源，不把整个外部skill拼进本skill。
+- **Product UI, websites, and component styling:** [Product UI](references/product-ui.md).
+- **Forms, filters, dialogs, feedback, and AI interactions:** [Component patterns](references/component-patterns.md), with an original interactive study.
+- **Palette choices, appearance options, or subtle ambient motion:** [Color and light](references/color-and-light.md).
+- **Brand websites, posters, and event visuals:** [Brand expression](references/brand-expression.md).
+- **Choosing references or continuing an established direction:** [Reference library](references/reference-library.md).
+- **Adapting to dashboards, mobile, reports, or other formats:** [Cross-surface guidance](references/cross-surface.md).
+- **Additional methods and first-party examples:** [External skills and systems](references/external-skills.md). Select relevant material rather than combining entire upstream skills.
 
-- **配色提案、用户外观选择或可选动态背景**：读取 [references/color-and-light.md](references/color-and-light.md)。以已认可的柔光磨砂质感为benchmark，保持选择空间，不固定整页换肤，不把装饰动画默认加到所有产品。
+The same brand's tool and poster need not look identical. Consistency comes from comparable care, color restraint, and attention to people.
 
-同一品牌的工具页和海报不需要长得一样。使用相近的细节质量、色彩克制和以人为中心的表达建立关联。
+## Work from the task
 
-## 创作方式
+Use available context to establish the audience, main task, device, content, density, and existing constraints. Ask only for missing information that changes the direction. Separate durable principles from project settings and current experiments; a single example's type size or palette must not become a universal requirement.
 
-先用已有上下文确定用户任务、受众、终端、信息密度和真实内容。缺少会影响方向的关键信息时再问，不重复询问已确认偏好。区分稳定品牌原则、当前项目参数与本轮探索，不能把局部字号或一次失败推广成普遍禁令。
+When exploration is useful, refine one demanding, representative page or component first. Use real content to check typography, layout, controls, and materials. Make an interactive example when behavior matters; a static image cannot prove responsive or interaction quality. Extend the chosen direction after it works.
 
-在需要审美探索时，先用一处真实且有难度的页面或组件验证字体、布局、操作和材质；不要同时大量展开未经确认的方向。需要体验时做可操作样例，静态效果图不能证明交互或响应式已完成。选定后再扩展成体系。
+Write product copy that explains the action, object, conditions, and next step. Preserve approved wording. Do not invent slogans or unsupported promises. Preserve existing business logic when the task is visual refinement.
 
-品牌层可以表达未来，产品文案直接交代功能、对象、条件和下一步。沿用用户最终确认的文案，不擅自补口号或未经证实的承诺。
+## Before delivery
 
-## 交付前判断
+Check the actual target desktop viewport and a narrow layout. A narrow preview pane is not evidence of a desktop design; a tall full-page screenshot is not a landscape viewport preview.
 
-用实际浏览器检查目标桌面视口与窄屏，不将侧栏宽度当成桌面设计，也不把整页长截图当成横屏一屏效果。核对长标题、多标签、空值、加载、失败及键盘操作；确认图标在底块内部、视觉组之间的对齐和文字可读性。
+Check relevant long titles, multiple labels, missing values, loading and error states, and keyboard paths. Icons should sit correctly within their backplates; related visual groups should align and text should remain readable.
 
-交付物要能对应：截图、可点击页面、代码和说明来自同一最终版本。多页核心流程必须可到达，不能把核心列表藏成占位弹窗。原型数据与真实能力分清；没有原源码时提供接入映射，不能承诺直接替换即可部署。
+Keep screenshots, interactive pages, source, and handoff notes on the same version. Make core pages reachable. Distinguish sample data from real capabilities. Without the original source, explain integration mappings rather than promising a drop-in deployment.
