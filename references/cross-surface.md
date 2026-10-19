@@ -1,50 +1,50 @@
-# 跨产品与载体的一致性
+# Consistency across products and formats
 
-同品牌的稳定部分：字体使用有秩序、阅读舒适、对齐准确、文字直接、颜色克制、层次有意义、操作可预测。可变部分：明暗、信息密度、主视觉、网格、字号、动效强度。不要要求所有载体都白底、胶囊和磨砂。
+Keep ordered typography, readable content, precise alignment, direct language, restrained color, meaningful depth, and predictable actions consistent. Allow lightness, density, imagery, grids, scale, and motion to vary. Not every surface needs white, pills, or glass.
 
-## 场景选择
+## Adapt to the setting
 
-| 场景 | 首要任务 | 可继承的表达 | 不能机械继承 |
+| Setting | Main task | Carry forward | Do not copy mechanically |
 | --- | --- | --- | --- |
-| 产品入口/短落地页 | 理解价值并开始 | 简洁说明、一个清晰主入口、轻柔光 | 强制三步骤、海报式长宣言 |
-| 列表/搜索/目录 | 找到与比较 | 分组、语义图标、稳定列、清楚标签 | 把每条变成营销卡片 |
-| 工作台/后台/数据表 | 高频操作、比对与管理 | 清晰工具栏、共享行基准、状态语义 | 24px套所有表格、全页磨砂 |
-| 表单/上传/设置 | 正确完成输入 | 可见标签、局部反馈、明确保存机制 | 靠placeholder解释字段、虚假成功 |
-| AI对话/Agent执行 | 理解与控制进展 | 输入、处理中、结果与下一步分层 | 为强调AI加星光、假推理、无止境动画 |
-| 品牌官网/活动页 | 建立信任与记忆 | 人、材质、少量大胆构图 | 功能页的密集筛选结构 |
-| 海报/社交视觉 | 单次信息传达 | 影像、明暗、字体个性与留白 | 浏览器控件、无作用按钮 |
-| 报告/演示材料 | 理解论点、证据与数据 | 明确阅读顺序、同语义配色 | 硬搬网页高度和交互动效 |
-| 移动端 | 快速阅读与单手操作 | 一致用语、组件状态和主次关系 | 缩小整张桌面页面 |
+| Entry or short landing page | Understand value and start | Clear explanation, a primary entry, subtle light | Mandatory three steps or a long manifesto |
+| Search or directory | Find and compare | Grouping, semantic icons, stable columns | Turning each item into a marketing card |
+| Workspace or dashboard | Frequent comparison and management | Clear tools, row alignment, status semantics | 24px in every cell or glass everywhere |
+| Forms, uploads, settings | Complete input correctly | Visible labels, local feedback, clear saving | Placeholder-only guidance or fake success |
+| AI conversation or execution | Understand and control progress | Separate input, processing, results, next steps | Sparkles, fabricated reasoning, endless animation |
+| Brand or event website | Establish trust and recall | People, materials, selective expressive composition | A functional page's dense filter layout |
+| Poster or social visual | Communicate one message | Imagery, tonal depth, typography, space | Browser controls or nonfunctional buttons |
+| Report or presentation | Understand claims and evidence | Reading order, consistent data semantics | Website dimensions and interaction effects |
+| Mobile | Read quickly and operate comfortably | Consistent terms, states, action hierarchy | Shrinking the entire desktop page |
 
-专业并不意味着每页密集；友好并不意味着每页插画或拟人语气。每次在事实基础上决定强度。
+Professional does not mean dense everywhere; friendly does not mean illustrations everywhere. Choose intensity from the task.
 
-## 项目级决策记录
+## Project decisions
 
-沿用当前项目已有设计记录；没有且确有跨页复用价值时，记录以下最少信息，不自动制造一堆配置文件：
+Reuse existing project records. When cross-page reuse warrants a record, capture only what is useful:
 
-- 使用者、关键任务、终端和真实信息。
-- 已确认品牌要素与仍待确认的方向。
-- 文字层级、语义颜色、表面层级和交互约定。
-- 本次采用的参考与明确不采用的部分。
-- 用户明确反馈、最终页面或组件样例。
+- Audience, key tasks, devices, and real content.
+- Confirmed brand assets and open directions.
+- Text hierarchy, semantic colors, surface levels, and interaction conventions.
+- Adopted references and what was deliberately not adopted.
+- Explicit feedback and the final representative page or component.
 
-用户事实、品牌原则、当前页面参数和探索建议分开存放。固定一套设计语言，不固定所有页面结构。
+Separate user facts, durable principles, page settings, and experiments. Keep a shared design language without fixing every page structure.
 
-## Tokens 的组织示例
+## Tokens
 
-`text-primary`、`text-secondary`、`surface-base`、`surface-raised`、`surface-overlay`、`action-primary-bg`、`action-primary-hover`、`status-error-text`、`focus-ring`、`space-group`、`radius-control`、`radius-label`。
+Example semantic names: `text-primary`, `text-secondary`, `surface-base`, `surface-raised`, `surface-overlay`, `action-primary-bg`, `action-primary-hover`, `status-error-text`, `focus-ring`, `space-group`, `radius-control`, `radius-label`.
 
-品牌值→语义用途→组件使用，避免组件里随意重复色值。需要紧凑版和舒适版时，调整行高、间距与必要字号；不让所有信息一起缩小。暗色与磨砂须重新检查实际文字对比，不能只反转颜色。未定稿的色值标为起点，不冒充品牌标准。
+Map brand values to semantic roles, then to components. Avoid repeating unexplained raw colors. Comfortable and compact modes can adjust spacing and row height while preserving readability. Recheck contrast for dark and translucent surfaces; do not just invert colors. Label provisional values as starting points.
 
-## 实际验收任务
+## Useful checks
 
-挑当前页面真实相关的任务检验，而非每个项目都跑完整清单：
-- 一个长名称和多标签条目，如何保留主次和对齐？
-- 一次输入失败，数据是否还在、知道怎么修复吗？
-- 一个空列表，能区分首次使用和筛选无结果吗？
-- 正在执行的AI任务，能否停止、知道哪些结果已完成？
-- 桌面变窄后，阅读与操作顺序是否合理？
-- 海报离开聊天上下文后，主题与必要信息是否还清楚？
+Choose checks relevant to the actual page:
 
+- Does a long name with many labels retain hierarchy and alignment?
+- After invalid input, is the data preserved and the correction clear?
+- Can users distinguish first use from filtered-out results?
+- Can an AI task be stopped, and are completed results distinguishable?
+- Does reading and action order remain sensible on a narrow viewport?
+- Does a poster communicate its subject outside the original conversation?
 
-颜色是可变项，色彩语义和阅读层级是稳定项。设计提案可提供可比预设；是否让终端用户调整、是否加入动态，由产品任务决定。参阅 [颜色与光感](color-and-light.md)，不要把首个已确认案例变成全品牌固定蓝紫主题。
+Color may vary while semantic meaning and reading hierarchy remain stable. Comparable presets can help design review; end-user customization and motion are product decisions. See [Color and light](color-and-light.md).

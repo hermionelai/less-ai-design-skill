@@ -1,45 +1,45 @@
-# 可选择的颜色与动态光感
+# Color choices and ambient light
 
-确认日期：2026-10-19。用户认可本轮三张首页的质感，作为benchmark：大面积近白、稳定的炭黑正文与主要按钮、自然融入背景的低饱和柔光、低存在感磨砂。认可的是质感和处理方法，不是锁定某一组色值，也不是批准将三张方案全部上线。
+The benchmark is mostly near-white, stable dark text and actions, low-saturation light that blends into the background, and quiet frosted surfaces. This describes a material relationship, not a mandatory palette or permission to change a live product.
 
-## 已认可的观察素材
+## Comparable directions
 
-- **暖蓝灰柔光**：微暖白与淡沙色过渡到蓝灰，偏专业、有人味。
-- **灰紫柔光**：近白中少量低饱和灰紫与银蓝，偏细腻与探索感。
-- **淡蓝柔光**：白底与轻淡蓝光，接近此前已确认的清爽产品方向。
+- **Warm blue-gray:** a slightly warm white and pale sand transition into blue-gray; professional with some warmth.
+- **Muted lilac:** near-white with small amounts of gray-lilac and silver-blue; delicate and exploratory.
+- **Pale blue:** white with a light blue glow; clear and calm.
 
-这些色温来自静态视觉探索；公开版仅保留描述，不附项目专属图片。它们不是精确像素规范、生产资产或动态效果证明。不要从图中照抄变形字或微小排版偏差；正式文字仍用用户确认的原文和可访问的文本。
+These are descriptions from visual exploration. Project-specific images are not distributed in this public repository. They are not pixel specifications or evidence of implemented motion. Other palettes can be proposed when the context supports them.
 
-## 多选项，不固定换肤模板
+## Choice without a rigid skin system
 
-设计时提供少量真正可比的色温/光感选项；以同一真实页面、相同内容与控件比较。允许使用者先选预设，再按具体需要调整色相、冷暖、强度或动态开关。不是每次都必须三套，也不是所有产品都必须出现主题选择器：先区别“设计阶段供使用者选择”和“产品终端用户个性化”，后者只有属于当前产品范围时才做。
+Compare a few meaningful color temperatures on the same real page with identical content and controls. A preset may be a starting point for adjusting warmth, hue, strength, or motion. Not every proposal needs three options and not every product needs a theme selector. Distinguish design-review choices from end-user personalization.
 
-变化主要发生在背景光色、色温和少量表面反射。强调色不是整页颜色的总开关，不要求按钮、文字、标签和图标一起染色。产品语义色、错误/警告/成功反馈和操作层级保持稳定。可选范围由当前品牌、背景和可读性决定，不将任意全色域滑块视为默认功能。
+Variation mainly belongs in ambient light, temperature, and a little surface reflection. An accent is not a command to tint every button, label, icon, and paragraph. Keep error, warning, success, focus, and action hierarchy stable. Do not assume an unrestricted full-spectrum slider is a useful default.
 
-## 光感如何成立
+## Making the light believable
 
-- 主体仍接近白色，色彩像环境光透进来，而非把底板填成主题色。
-- 不透明大白矩形若造成割裂，先减弱填充、边缘和阴影，让表面自然融入背景；不是一律删除必要容器。
-- 渐变范围、重心和过渡按内容位置决定，不机械左右各一个色团。不同页面可采用不同构图。
-- 炭黑主要按钮和中性文字是本轮认可方案的稳定锚点；其他场景仍可提出有理由的变体，不永久禁止彩色按钮。
-- 配色要放入真实页面验证，不只展示色块、标准组件卡或生硬的主题切换演示。
+- Keep most of the canvas near-white; color should feel like environmental light rather than a painted theme panel.
+- If an opaque white rectangle looks disconnected, soften fill, edge, and shadow first. Do not remove a needed container automatically.
+- Place gradients according to the composition, not a mechanical blob in each corner.
+- Charcoal actions are a stable anchor in the reference direction. Other contexts can justify other action colors.
+- Evaluate color in a real page, not only swatches or interchangeable component cards.
 
-## 动态是可选增强
+## Optional motion
 
-允许低饱和背景光的缓慢位移、色温过渡或轻微明暗变化。动态应像自然环境变化，存在感低于内容与用户操作；不移动版面、不改变文字尺寸，不改变控件形状或可点击位置。
+Low-saturation light may drift slowly or shift subtly in warmth or brightness. Its presence should stay below the content and task. Do not move the layout, change text size, reshape controls, or shift click targets.
 
-先确保静态版本成立，再考虑动效。可以从较长周期、低幅度变化试起，但不规定所有项目固定时长或必须循环。长文、表格、高频操作页可以完全静止；海报或品牌页也不默认动画。
+Make the static composition work first. Start with a long cycle and low amplitude where appropriate, without prescribing a universal duration. Reading, tables, and frequent-action workspaces may be entirely static. Brand pages and posters do not automatically need animation either.
 
-如果提供自动变化，应有适当的暂停/静态选择；用户手动选定的状态不应马上被自动循环覆盖。尊重 prefers-reduced-motion，降低或关闭装饰动态；不要把自动轮换和减少动态偏好混为一谈。
+Provide an appropriate pause or static option for automatic changes. Do not immediately override a manually selected appearance. Respect `prefers-reduced-motion` by reducing or disabling decorative motion. Motion preference and automatic palette rotation are separate concerns.
 
-任意动态帧中，文字、焦点、状态和按钮对比度都保持可读。背景变化不是进度或成功的信号。需要性能降级时回到静态柔光/清晰实底；不依赖持续高成本全屏模糊。
+Keep text, focus, state, and action contrast readable in every frame. Background movement is not a progress or success signal. Fall back to static light or a clear solid surface when needed; avoid expensive continuous full-screen blur.
 
-## 避免重新落入模板感
+## Avoid falling back into a template
 
-不要把“未来感”做成彩虹光团、霓虹紫蓝、液体球、明显波浪、快速色相轮转、呼吸发光按钮、鼠标追光或满屏玻璃。它们不是绝对禁止的艺术形式，但不符合当前benchmark，不能作为默认输出。
+Rainbow blobs, neon purple-blue, liquid spheres, obvious waves, rapid hue cycling, glowing breathing buttons, cursor spotlights, and glass on every surface are not default expressions of the future. They may suit other art directions, but not this benchmark without a specific reason.
 
-避免用生硬的六套主题把已有风格替换掉。先保留已确认的比例、阅读层级、留白、对齐与按钮，再调整光和温度。若换色后感觉仍然像通用组件库，检查构图、材质关系与真实内容，而不是继续叠装饰。
+Preserve the chosen proportions, hierarchy, spacing, alignment, and actions while exploring light and temperature. If the result still feels generic, inspect composition and real content before adding decoration.
 
-## 验收
+## Verify
 
-检查默认、预设切换、最强/最弱光感、动态过程、暂停、减少动态和不支持模糊时的状态。用户选择改变外观而不丢失表单输入、当前筛选或任务状态。跨产品复用同一逻辑和品质，不强制同一色相与背景图。
+Check the default, presets, strength extremes, motion, pause, reduced-motion behavior, and solid fallback as relevant. Appearance changes should preserve inputs, filters, and task state. Reuse the logic and quality across products, not necessarily the hue or background image.

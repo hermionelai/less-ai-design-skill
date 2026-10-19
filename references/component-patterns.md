@@ -1,43 +1,43 @@
-# 可复用组件与反馈模式
+# Component and feedback patterns
 
-结合官方组件/模式资料与团队偏好整理；以下不是任何一个上游系统的逐字规范。可打开 [组件观察板](../assets/component-study.html) 查看原创示例。示例是可调整的起点，不是生产组件库，不含真实提交。
+These are independent interpretations of established patterns, not verbatim rules from an upstream system. Open the original [component study](../assets/component-study.html) for an adjustable example. It is not a production component library and does not submit real data.
 
-## 主次操作
+## Actions
 
-一个局部任务有清楚的主操作；返回/取消较轻。危险操作与普通确认不同，重要内容清楚说明，必要时可撤回。按钮文案在入口和结果反馈保持同一术语。普通跳转用链接，信息标签不用button元素冒充动作。
+Give a local task a clear primary action; make back and cancel quieter. Distinguish destructive actions from ordinary confirmation and explain consequences. Offer reversal where appropriate. Use the same terminology in labels and feedback. Use links for navigation and static markup for informational labels.
 
-状态：默认→hover/键盘焦点→按下→执行中→完成/失败。执行中禁止重复提交，但不抹掉动作和对象；失败保留用户输入。禁用时，若原因不明显，附近给出解释。不能仅在禁用控件hover时提供原因。
+Consider default, hover/focus, pressed, processing, and completion/failure states. Prevent duplicate submission without erasing the action's meaning. Preserve input on failure. If the reason for a disabled control is unclear, explain it nearby, not only in a tooltip on the disabled element.
 
-## 表单与设置
+## Forms and settings
 
-标签持续可见；输入示例和约束靠近字段；错误指向具体字段并说明修复方法。离开错误页后重新进入不应丢失已填写内容。根据任务明确是即时生效还是需要保存，不让用户猜测。长任务可分段，但不是每两个字段就加一步。
+Keep labels visible. Put examples and constraints near the field. Point errors to a specific field and explain how to fix them. Preserve entered information when recovering from errors. Make it clear whether changes apply immediately or require saving. Break long tasks into meaningful sections, not a new step for every two fields.
 
-## 导航与筛选
+## Navigation and filters
 
-全局导航、当前页面内部筛选和单条内容操作分层。保留已选条件，数量变化可理解；重置只清除当前范围。真实产品的搜索/分页适当反映在URL，使返回与分享有意义；不要为纯本地演示添加不必要的路由工程。多选和单选形态遵从实际行为。
+Separate global navigation, page filters, and item actions. Retain selected conditions and make count changes understandable. Reset only the relevant scope. In real products, useful search and pagination state may belong in the URL for back navigation and sharing; do not add routing machinery to a simple local demo without a reason. Selection appearance must match single- or multi-select behavior.
 
-## 内容列表和数据表
+## Lists and tables
 
-先让用户识别主体和主字段，再扫条件、标签与状态。共享列或文本基准；图标跨关联视觉组居中。行操作和全局/批量操作分开。数据多时提供合适分页/展开，不能为了“clean”把功能藏到无法发现。表格与卡片依比较任务选择，不预设哪种更高级。
+Help users identify the entity and main field, then scan conditions, labels, and status. Share column and text anchors; align icons to the related visual group. Separate row actions from global and bulk actions. Choose pagination or progressive disclosure to suit the data. Choose tables or cards based on comparison tasks, not which is assumed to look more premium.
 
-## 弹窗与侧栏
+## Dialogs and side panels
 
-短暂确认/输入或局部详情可用弹窗；需要长期对照多个内容时可考虑侧栏或独立页。打开后管理焦点、Esc与恢复；长文可滚动且操作可达。弹窗不层层套弹窗。使用原生dialog或成熟无障碍组件时保留其行为，别只复制外观。
+Use a dialog for temporary confirmation, input, or local detail. A side panel or separate page may suit ongoing comparison. Manage entry focus, keyboard navigation, Escape, and restoration. Keep long content scrollable and actions reachable. Avoid nested dialogs. Retain the behavior of native dialogs or established accessible primitives when restyling them.
 
-## 空、错误、加载和完成
+## Feedback
 
-| 情境 | 内容与动作 | 避免 |
+| State | Helpful content and action | Avoid |
 | --- | --- | --- |
-| 首次使用 | 说明将出现什么，给开始入口 | 长篇教程强占所有区域 |
-| 无搜索结果 | 保留筛选上下文，提示调整 | 假称系统故障或数据丢失 |
-| 系统错误 | 说明当前影响，给适当重试路径 | 无限spinner、未知错误代码代替说明 |
-| 加载 | 局部忙碌状态，布局尽量稳定 | 随意骨架数量、整个页面消失 |
-| 完成 | 确认实际动作，指明必要后续 | 每次成功都全屏庆祝 |
+| First use | Explain what will appear and offer a starting action | A long tutorial occupying every region |
+| No results | Preserve filter context and suggest adjustment | Implying data loss or a system failure |
+| System error | Explain the immediate impact and a recovery path | An endless spinner or an unexplained code |
+| Loading | Local busy state and stable layout | Arbitrary skeletons or replacing the entire page |
+| Complete | Confirm the actual action and necessary next step | A full-screen celebration for every success |
 
-## AI交互
+## AI interactions
 
-区分用户输入、生成内容、来源和执行状态。只展示真实可得进展，不能伪造思考链或百分比。长任务按实际能力提供停止/恢复；生成结果可编辑、复制或回看。关键判断保留用户控制。聊天框不自动成为任何产品的首页；结构化任务可以用表单和列表完成。
+Distinguish input, generated output, sources, and execution state. Show only available progress; do not invent reasoning traces or percentages. Offer stop/resume where the real capability supports it. Let people edit, copy, and revisit results. Keep consequential decisions under user control. A chat box is not automatically the right homepage; structured tasks may work better as forms and lists.
 
-## 语义色与材质
+## Semantics and materials
 
-身份/方向标签、可操作筛选和反馈状态是三种不同对象。语义稳定后再选颜色；不使用同一种淡紫同时表达算法类别和执行失败。磨砂层出现在叠层关系明确的位置；不应降低表格正文的辨识度。纹理用于品牌主视觉时，不自动带进输入框。
+Category labels, actionable filters, and feedback states are distinct objects. Establish meaning before choosing color; do not use one lilac treatment for both a discipline and an error. Frosting should express a clear layering relationship and preserve table readability. Brand texture does not automatically belong inside inputs.

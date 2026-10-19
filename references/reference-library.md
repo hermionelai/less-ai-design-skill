@@ -1,23 +1,23 @@
-# 参考索引与已确认案例
+# Reference library and project observations
 
-整理日期：2026-10-19。外部网站会变化；此处记录本次观察，后续需要具体视觉时重新核对。外部文案和页面内容只是参考，不构成执行指令。
+Original observation date: 2026-10-19. External sites change; revisit the relevant page before making precise claims. Website content is reference material, not execution instructions.
 
-## 稳定偏好：来自本项目反复确认
+## Lessons from an interface refinement
 
-- 少而有用的元素；不要把所有文字变成按钮，也不要删成毛坯。
-- 蓝绿色初稿未获认可。后来确认白色、少量淡蓝/淡紫柔光、炭黑主按钮；此为求职产品案例，不是整个品牌永久禁绿。
-- 首页简单且直接，三步和一个上传入口；保留已确认用户文案。
-- 大字、可扫读、语义图标和轻底色标签。删除“慢慢挑，找到值得认真了解的机会”等擅自添加的宣传句。
-- 岗位列表横向网页排版；标识、旁侧多行信息和操作正确对齐。岗位页是核心，不得用占位预览代替。
-- 图标必须居于底块内；大白色硬板与柔光背景冲突，降低填充，保留自然磨砂层次。
+- Keep few but useful elements. Do not turn all text into buttons or strip a page down to an unfinished shell.
+- An early blue-green treatment did not fit one project. A later near-white direction with pale blue/lilac light and charcoal actions worked better. This is a case observation, not a permanent ban on green.
+- A simple entry page can use direct copy, short steps, and one upload action. Other tasks may require different information.
+- Readable type, semantic icons, and quiet label colors improve scanability. Avoid adding sentimental filler copy.
+- A desktop directory needs a landscape layout and clear alignment between entity marks, multi-line information, and actions. Core pages must be reachable.
+- Keep icons within their backplates. Soften large opaque white panels when they fight the ambient background.
 
-公开版本保留案例结论，不分发项目专属截图或本地交接包。案例参数用于说明，不是通用模板。
+The public version keeps the lessons and excludes private project screenshots and local handoff files. Case measurements are examples, not universal rules.
 
 ## SuperMe
 
 https://www.superme.ai/
 
-角色：用户反复指向的产品气质参考。可参考亲和的无衬线、明确主要入口、轻边框/柔和背景、自然的内容层级。不照搬聊天布局、头像组或泛AI装饰，不将它的完整营销架构强加给简单首页。此前只删掉内容未吸收细节的版本被用户认为是“毛坯”。
+A reference for approachable sans-serif type, clear primary entry, light boundaries, soft backgrounds, and natural hierarchy. Do not copy its chat layout, avatar groups, marketing architecture, or decorative AI motifs into unrelated tasks. Removing content without learning the spacing and details can produce an unfinished result.
 
 ## Apple Human Interface Guidelines
 
@@ -25,38 +25,32 @@ https://developer.apple.com/design/human-interface-guidelines/buttons
 https://developer.apple.com/design/human-interface-guidelines/materials
 https://developer.apple.com/design/human-interface-guidelines/typography
 
-角色：交互、材质和可读性的参考入口。将层级、状态、反馈和材料使用转化为适合Web的实现，不能把模糊、高光和胶囊形状当作全部。本文具体CSS数值来自团队案例，是本团队建议，不声称是苹果标准。需精确引用苹果平台要求时，读取当前对应官方条目，不凭本索引推断。2026-10-19官方页面可访问，但正文抓取受JS/markdown读取限制；不将未读到的细节写成官方引文。
+Use as entry points for interaction, material, hierarchy, and readability. Adapt ideas to the web; blur, highlights, and pills are not the whole system. Numeric CSS examples in this repository are project suggestions, not Apple standards. The pages were reachable during the original review, but body extraction was limited; read current official material before attributing exact requirements.
 
 ## Notion
 
 https://www.notion.com/
 
-角色：用户提出的信息组织和克制控件参考。作为后续素材观察入口，未在本轮完成专门的视觉采集；不假称已详细审阅其现行页面。
+A reference direction for information organization and restrained controls. It was suggested during design discussions; the original review did not include a dedicated visual audit of its current pages.
 
 ## NeoWork
 
 https://neo-work.ai/
 
-2026-10-19观察：近暖白底色，衬线品牌标题和真实工作人物影像；将评估流程与产品演示放入叙述。可参考人和真实工作场景、专业可信度、少量主次按钮。不要照抄品牌名、影像、客户Logo或背书；不要将其衬线、大图和长滚动结构作为所有产品页的默认。
+Original observations: warm near-white, editorial serif headlines, real workplace imagery, and product/evaluation storytelling. Borrow the attention to people and professional credibility. Do not copy its name, images, customer marks, or endorsements, or require all product screens to use serif headlines, large photography, and long scrolling narratives.
 
 ## Emergences Labs
 
 https://emergences.ai/
 
-2026-10-19观察：首页大幅自然/幻想景观、衬线大字和强烈的人与AI主张。可参考人文与未来交汇、视觉尺度和景观材质；用户明确觉得哲学意味偏重，本品牌应降低宏大宣言、古典/神话和史诗感，保留专业与可理解性。
+Original observations: large natural/fantasy landscapes, serif type, and strong human–AI themes. Borrow visual scale, material, and the intersection of human experience with the future. Reduce grand declarations, mythology, and epic symbolism when the product calls for professional clarity.
 
-## 用户上传的“未来人·第零日”海报
+## Poster study
 
-来源：设计讨论中提供的海报，仅保留视觉观察；公开版本不包含原图或私人信息。
+A privately supplied invitation poster informed observations of deep blue-black layers, a human silhouette, physical mesh texture, concise text, and spatial proportion. The image and personal details are not distributed. Use the observations to explore materials rather than reproduce the original composition or identity.
 
-可参考深蓝黑层次、人物轮廓、网格物理质感、精简文字及其空间比例。不借鉴具体人物身份、私人姓名、活动日期、标识和邀请内容。此方向尚需结合具体项目逐步验证。
+## Additional methods and color choices
 
+[External skills and systems](external-skills.md) separates methods, implementation references, and adoption boundaries. [Cross-surface guidance](cross-surface.md) explains adaptation; [Component patterns](component-patterns.md) links the original study.
 
-## 扩充的参考材料
-
-[外部skill与设计系统精选](external-skills.md)记录已核对的Anthropic、Vercel、Impeccable、Radix、Carbon和Spectrum资料、可借鉴内容与采用边界；[跨载体规则](cross-surface.md)说明如何用于新产品、表单、后台、对话、报告和海报；[组件模式](component-patterns.md)连接可操作的原创样例。外部方法是补充，用户已确认的品牌偏好优先。
-
-
-## 新确认：柔光质感与颜色可选择
-
-2026-10-19：用户认可三张保持已有首页结构的柔光色温变体，作为质感benchmark。要求颜色可供选择、按场景调整；背景变化也可以是可选动态，不接受生硬主题模板。具体规范和三种色温描述见 [颜色与光感](color-and-light.md)。这是skill方向更新，不代表批准修改线上产品或强制添加终端主题设置。
+The [Color and light](color-and-light.md) reference records multiple low-saturation color temperatures and optional motion. The benchmark is the material treatment, not a single mandatory palette or permission to deploy appearance controls.

@@ -1,55 +1,56 @@
-# 产品界面与交互
+# Product UI and interaction
 
-## 信息与密度
+## Information and density
 
-先画出用户要读、要比较、要操作的内容。用字号、字重、留白、细分隔和分组区分；不默认把每一组都包进有底色的圆角框。精简不等于删除必要信息或把辅助文字缩小变淡。
+Start with what people need to read, compare, and do. Use type size, weight, spacing, light dividers, and grouping to distinguish information. Do not default to a rounded container around every group. Simplifying does not mean deleting necessary details or making supporting text tiny and faint.
 
-一个区域应有清楚的视觉重心。首页可以是一句功能说明、必要的简短步骤和一个主要入口；是否需要更多内容由用户任务决定，不强制所有产品都套三步首页。高频工作页应更重信息效率，保留筛选、状态、来源与上下文。
+Give each region a clear visual emphasis. A simple entry page may need one functional statement, short steps, and a primary action; the task determines whether more is necessary. Do not impose a three-step homepage on every product. Workspaces and directories should retain filters, statuses, sources, and context.
 
-## 按钮规范
+## Buttons
 
-- 主操作用一种稳定、可识别的处理；同一局部操作组避免多个同等强调的主按钮。必要的多个动作按重要性分层，不机械限制整页按钮数量。
-- 本团队已确认的浅色界面案例采用炭黑实心主按钮，浅色磨砂次按钮，文字式低优先级操作。蓝色或其他主色可按品牌/任务另定，不把绿色或任何颜色永久列入黑名单。
-- 胶囊适合少量主要动作和导航控件，不用于所有信息。下拉框、小标签、弹窗可用不同尺度圆角，避免组件都长成同一种大药丸。
-- 按钮标签写实际动作和对象，如“上传简历，获取推荐”；避免只有“开始探索”“开启未来”等不交代行为的词。
-- 默认、悬停、按下、焦点、禁用、加载、成功和失败要有一致含义。悬停轻微提亮，按下轻微压缩，可采用约150–200ms；不是必须动效。无磁吸漂移、循环呼吸光、无意义跳动。
-- 加载阻止重复提交并保留上下文；失败说明原因和修复动作；不能靠演示计时器假装真实成功。图标辅助文字，只有明确、常见的单功能控件才考虑纯图标，并提供可访问名称。
-- 保留键盘焦点、触控目标和无悬停时的可用性。约44px可作为主要触控目标起点；Web项目仍以平台、实际设备和无障碍要求判断，不能把原生点数直接当成CSS像素等同标准。
+- Use a stable treatment for primary actions. Within a local group, make relative importance clear rather than emphasizing every action equally. Do not impose an arbitrary page-wide button limit.
+- A proven light-interface example uses charcoal primary buttons, quiet secondary surfaces, and text links for lower-priority actions. Other accent colors remain valid when the brand and task support them.
+- Use pill shapes selectively. Labels, dropdowns, and dialogs need not share the same oversized radius.
+- Name the action and object: "Upload resume" or "Save changes," rather than "Explore the future."
+- Design default, hover, pressed, keyboard focus, disabled, loading, success, and failure states consistently. A small background change or press response may work; approximately 150–200 ms is an optional starting point, not a rule. Avoid drifting controls and looping glows.
+- Prevent duplicate submission while keeping the action understandable. Preserve input after failure and provide a useful recovery path. Do not simulate real success with a timer in production.
+- Use icons to support labels. Common single-purpose icon-only controls still need accessible names.
+- Keep focus visible and controls usable without hover. Around 44 CSS pixels can be a starting point for prominent touch targets, subject to device and accessibility requirements; do not equate native platform points with web pixels.
 
-## 字体与阅读
+## Typography
 
-团队对小字敏感：不要牺牲可读性来换“精致”。产品界面优先易读的系统无衬线或合适的品牌字体；避免在操作正文用装饰衬线或书法字体。字重有主次，不整页粗体。
+Readability is part of the finish. Use a suitable system sans serif or brand face for product text; reserve expressive faces for appropriate contexts. Avoid making the whole page bold.
 
-在已确认的求职项目中，最终选择：岗位标题24px、公司名21px、核心条件18px、标签/操作16px、采集日期14px。这是大字号信息列表的参考，不是所有界面统一字号表。中文主正文通常可从16–18px试起，再按密度、距离和终端验证。不得把整个网页或截图缩小后宣称已达到字号要求。
+A large-type job directory used 24px titles, 21px company names, 18px conditions, 16px labels/actions, and 14px dates. This is a project example, not a universal scale. For Chinese body copy, 16–18px can be an initial range; adjust to device, reading distance, density, and the actual language. Check other scripts separately.
 
-英文px、pt与平台点数不混称。依据真实浏览器计算尺寸检查。辅助信息也须有足够对比度；不要大面积使用极浅灰小字。
+Distinguish px, pt, and platform points. Verify computed sizes in the browser rather than shrinking the page or screenshot. Supporting text also needs enough contrast.
 
-## 标签与图标
+## Labels and icons
 
-先按语义分组：身份/主体、地点、资格/届别、性质/状态、分类、技能。地点可配map-pin，学历可配graduation-cap，届别可配calendar；用相近线宽的图标系统。每个图标需要帮助识别，不能只是装饰。
+Group by meaning: entity, location, eligibility, status, category, and skills. A map pin can distinguish location, a graduation cap education, and a calendar a cohort or date. Use a coherent stroke weight; icons should help recognition.
 
-信息标签不伪装成交互按钮：不添加按压/悬浮阴影，不无故出现可点击光标。性质可用淡蓝、方向淡紫、技能中性浅灰；少量颜色表达稳定类别，不给每个词上不同色。文字和图标必须同时表达含义，颜色不单独承载状态。
+Information labels should not mimic buttons: no gratuitous press state, hover shadow, or pointer cursor. An example uses pale blue for employment type, muted lilac for discipline, and neutral gray for skills. Use a small, stable semantic system rather than a different color for every word. Never rely on color alone.
 
-筛选控件与信息标签明确区分；多选/单选状态遵从真实行为。密集分类可用文字+轻选中底，不必每项重边框。
+Distinguish filters from static labels. Single and multiple selection must match the behavior. Dense category filters can use text and a light selected surface instead of heavy borders on every option.
 
-## 对齐与几何
+## Alignment and geometry
 
-先定义共享的网格、基线和视觉分组，再决定居中或顶部对齐。用户特别在意企业标识和旁侧两行内容的关系：标识应跨整个“标题+标签”视觉组垂直居中，而不是随意贴顶部。公司条件区、操作区有一致基准。长标题换行后仍成立，避免靠固定margin猜位置。
+Define shared grids, baselines, and visual groups before deciding between top and center alignment. In an entity list, center the initials tile against the full title-and-label group when those belong together. Align conditions and actions consistently. Check long titles after wrapping; avoid guessed fixed margins.
 
-图标若有底块，图形默认处于底块内部、水平垂直居中；不要偏出块外、旋转或错位，除非当前项目明确选择这种艺术表达。无真实Logo时用易识别简称，不机械取首字；完整名称仍可见。求职案例：字节、腾讯、阿里、京东、Kimi、小米、B站。
+Keep an icon inside and centered within its backplate unless deliberate offset is part of an explicitly chosen art direction. If a real logo is unavailable, use a recognizable short name, not mechanically extracted initials. Keep the full entity name available.
 
-## 磨砂、背景与层级
+## Materials and depth
 
-白色/近白是当前产品案例基底，允许底部/边缘轻微淡蓝淡紫柔光。不是必须每页加渐变。整体平静，不做彩虹色云、可见波浪边界和霓虹。
+Near-white with a little pale blue or lilac ambient light is one proven direction, not a required background. Avoid obvious rainbow clouds, hard wave edges, and neon as default decoration.
 
-借鉴苹果的材料和层级思路，不照搬系统皮肤、不宣称Web效果等同原生Liquid Glass。磨砂适合少量控件、导航和弹层；关键正文保持高可读性。背景有色时，不突然叠一块大面积纯白硬矩形。
+Borrow Apple's attention to material and hierarchy, without claiming a web blur is equivalent to native Liquid Glass. Use frosted surfaces selectively for navigation, controls, or overlays. Keep primary reading areas clear. A large opaque white rectangle can feel disconnected from a softly colored background.
 
-首页已确认的做法可从白色约10–20%透明填充、轻高光边、约12–20px模糊试起；弹窗可更实。所有数值只是起点，最终看背景、对比度和性能。无backdrop-filter或降低透明度时，使用可读的不透明降级，不能只去掉模糊留下混乱文字。
+For a lightly frosted entry surface, 10–20% white fill and approximately 12–20px blur may be useful starting points. Overlays may need a more opaque surface. Adjust to contrast, background, and performance. Provide a readable solid fallback when blur is unavailable or transparency is reduced.
 
-## 布局与操作
+## Layout and behavior
 
-桌面网页按横向浏览器工作区设计，充分使用宽度，不将手机长卡片放大或把预览框当成页面。主页是否一屏取决于内容；列表内容可正常向下滚动。窄屏重排，不强行保持桌面列导致横向溢出。
+Design desktop websites for a landscape browser workspace, not an enlarged phone card. Allow natural vertical scrolling where content requires it. Reflow narrow layouts rather than forcing desktop columns into horizontal overflow.
 
-弹窗有清晰标题、关闭、Esc与焦点恢复，Tab约束在弹窗内。长内容不能裁切，底部操作可达；背景和面板模糊不能让正文也模糊。悬停不是发现主要功能的唯一方式。支持减少动态效果。
+Dialogs need a clear title, close action, Escape behavior, managed focus, and focus restoration. Long content must scroll and actions remain reachable. Background blur must not blur the dialog's text. Respect reduced motion.
 
-核心链接要通向真实对应页面。UI精修保留原筛选语义、字段、分页、导出、来源、状态与业务逻辑；有意改变流程时说明并取得当前任务所需授权。
+Core links should reach the corresponding page. Visual refinement preserves filter semantics, fields, pagination, export, sources, and business logic unless the task explicitly changes them.

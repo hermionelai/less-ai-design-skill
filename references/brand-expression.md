@@ -1,31 +1,31 @@
-# 品牌表达：人文、专业、面向未来
+# Brand expression: human, professional, future-facing
 
-## 稳定方向与探索边界
+## Stable direction, open choices
 
-已确认：clean、专业而有温度、细节精确、易用；允许轻量未来感。仍在探索：具体品牌名、Logo、固定主色、最终字体、海报影像体系和表达强度。不把这份指南当成已完成的品牌识别手册。
+Aim for clarity, professional warmth, precise details, ease of use, and a restrained sense of the future. Brand name, logo, fixed colors, final typography, imagery, and intensity remain project choices. This guide is not a completed identity system.
 
-用户希望表达对未来、人和AI交互的探索。“未来”可以来自真实的人、自然光、物理材质、空间关系与新交互，不默认机器人、芯片、电路、星光或宇宙神话。
+The future can be expressed through real people, natural light, physical materials, space, and new interactions. Do not default to robots, chips, circuitry, sparkles, or cosmic mythology.
 
-专业来自内容可信和制作精确，不等于冰冷工程后台；人文来自对人和情境的观察，不等于长篇哲学。海报可比产品页更有张力，工具页必须让人理解和完成任务。
+Professionalism comes from credible content and careful execution. Human warmth comes from observing people and situations. Neither requires a cold engineering dashboard or a philosophical manifesto. Posters can carry more expressive tension than tools, which must remain understandable and usable.
 
-## 图像与材质
+## Images and materials
 
-可探索真实人物/剪影、纸张、网格/织物/金属微纹理、光和暗部层次、自然空间。保持一个主要视觉主题；纹理只在合适尺度出现，不铺满正文或影响可读性。
+Explore real people or silhouettes, paper, subtle mesh/fabric/metal texture, tonal depth, and natural space. Keep a main visual subject. Apply texture at an appropriate scale; do not cover body text or compromise readability.
 
-用户提供海报的可借鉴点：低饱和深蓝与黑、中央人物轮廓、可触知的细密网格、少量明亮文字和明确的纵向节奏。不能据此推断所有产品必须深色，或人物必须匿名/神秘；不要复用海报里的私人姓名、日期、邀请信息和品牌标识。
+One poster reference suggested low-saturation blue-black, a central silhouette, tactile fine mesh, concise bright text, and deliberate vertical rhythm. This does not imply every product should be dark or mysterious. Do not reuse private names, dates, invitation details, or identifiers.
 
-产品视觉可使用近白+淡蓝/淡紫柔光；品牌视觉可以有深蓝/近黑分支。通过色调克制、相同精度和人的尺度形成联系，而不是强制共享相同背景。
+A light product surface and a dark brand treatment can be related through restraint, precision, and human scale rather than an identical background.
 
-## 字体和构图
+## Type and composition
 
-品牌标题可探索有编辑感的衬线或克制的无衬线，与正文易读字体搭配。不是恢复此前被拒绝的求职页巨幅宋体口号。海报的英文字体不自动决定中文字体，需检查中英比例、字面和实际内容。
+Brand headlines may explore editorial serif or restrained sans serif paired with readable body text. Expressive typography should not turn functional pages into oversized slogans. Check each script and bilingual proportion independently; an English poster face does not determine Chinese typography.
 
-保留强弱节奏和足够留白，但不为了戏剧感拆碎标题、过度拉字距或让文字漂浮。字、影像和光形成有意的关系，而非把它们放进等大的功能卡片。
+Use contrast and space intentionally. Avoid fragmented headlines, excessive tracking, or floating words solely for drama. Compose text, imagery, and light together instead of placing everything in equal cards.
 
-## 语言
+## Language
 
-产品先交代功能；品牌可以问有意义的问题，但需要具体主题或作品支持。“本源”“未来”“人机共生”等是探索线索，不直接变成每个首页的抽象标语。避免空泛赋能、重新定义一切、探索无限可能。用户给定最终文案优先。
+Product copy explains the function. Brand language can pose a meaningful question when the theme or work supports it. Ideas about origins, the future, and human–AI interaction are exploration prompts, not mandatory homepage slogans. Avoid empty claims about empowerment, redefining everything, or limitless possibilities. Approved user copy takes precedence.
 
-## 如何积累
+## Building a library
 
-每条素材记录：来源/日期、类型、可借鉴的具体元素、不借鉴的部分、适合场景、用户是否已确认。把引用图片作为观察材料，不默认可商业复用；需要成品资产时另行制作或取得相应素材。新偏好经真实项目确认后再更新规则，保留可调整余地。
+Record source and date, material type, the specific element to borrow, what not to borrow, suitable contexts, and approval status. Reference images are observation material, not automatically reusable commercial assets. Create or license production assets separately. Update principles after real project feedback and retain room for adjustment.
