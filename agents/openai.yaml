@@ -1,0 +1,4 @@
+interface:
+  display_name: "减少 AI 味道的设计"
+  short_description: "清晰排版、克制配色、细腻质感与自然交互，减少模板化 AI 风格"
+  default_prompt: "使用 $less-ai-design-skill，结合真实用户任务，设计清晰易用、有品质且减少模板化 AI 味道的产品。"
